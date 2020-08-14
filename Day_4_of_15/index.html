@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(0, 15, 35);
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        z-index: -1;
+      }
+      .join-form {
+        position: relative;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-radius: 2px;
+        padding-top: 11px;
+        height: 300px;
+        overflow: auto;
+      }
+      .join-form > * {
+        font-weight: bold;
+        margin: 5px 0;
+      }
+      #createAccountBtn {
+        position: absolute;
+        right: 5px;
+        cursor: pointer;
+        margin-top: 8px;
+        font-weight: bold;
+      }
+      #createAccountBtn :nth-child(2)[type|="submit"] {
+        font-weight: bold;
+      }
+    </style></head
+  >s
+  <body>
+    <h1>Create An Account</h1>
+    <form class="join-form">
+      <label for="inputFirstName">First name</label>
+      <input
+        type="text"
+        id="inputFirstName"
+        placeholder="Firstname"
+        required
+      /><br />
+      <label for="inputLastName">Last name</label>
+      <input
+        type="text"
+        id="inputLastName"
+        placeholder="Lastname"
+        required
+      /><br />
+      <label for="inputEmail">Email</label>
+      <input type="email" id="inputEmail" placeholder="Email" required /><br />
+      <label for="inputUsername">Username</label>
+      <input
+        type="text"
+        id="inputUsername"
+        placeholder="Username"
+        required
+      /><br />
+      <label for="inputPassword">Password</label>
+      <input
+        type="password"
+        id="inputPassword"
+        placeholder="Password ("
+        minlength="10"
+        required
+      /><br />
+      <label for="inputDate">Birth date</label>
+      <input type="date" id="inputDate" required /><br />
+      <label for="inputRange">How happy are you?</label>
+      <input type="range" id="inputRange" required /><br />
+      <label for="inputColor">what is your fav.color?</label>
+      <input type="color" id="inputColor" required /><br />
+      <div id="createAccountBtn">
+        <span>→ </span>
+        <input type="submit" value="Create Account" />
+      </div>
+    </form>
+  </body>
+</html>
