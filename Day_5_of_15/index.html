@@ -4,6 +4,48 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>repl.it</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 15px;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vmax;
+        height: 100vmax;
+        background-color: tomato;
+      }
+      .wheat-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 25rem;
+        height: 25rem;
+        background-color: wheat;
+        border: 2px solid black;
+      }
+      .teal-box {
+        width: 5.5rem;
+        height: 5.5rem;
+        background-color: teal;
+        border: 2px solid white;
+      }
+      .wheat-box :nth-child(2) {
+        width: 20rem;
+        border-style: dashed;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="wheat-box">
+      <div class="teal-box"></div>
+      <div class="teal-box"></div>
+      <div class="teal-box"></div>
+    </div>
+  </body>
 </html>
