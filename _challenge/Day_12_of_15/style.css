@@ -159,7 +159,7 @@ body {
   transform: scale(1.005);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-.music-list-box__music__album-img {
+.music-list-box__music__album-img-box {
   width: 15%;
   display: flex;
   justify-content: center;
@@ -205,4 +205,23 @@ body {
 }
 .background-play__btn-bar *:hover {
   cursor: pointer;
+}
+
+.current-music-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+.current-music-info__album-img-box {
+  border-radius: 80px;
+  box-shadow: 0 20px 65px #ff7529;
+}
+.current-music-info__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  height: 55px;
 }
