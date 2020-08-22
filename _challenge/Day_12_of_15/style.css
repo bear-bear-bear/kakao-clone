@@ -5,6 +5,7 @@ html {
   width: 100vw;
   height: 100vh;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -24,6 +25,7 @@ body {
 }
 
 .device {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin: 20px 30px;
@@ -52,12 +54,10 @@ body {
   align-items: center;
   height: 145px;
 }
-
 .header__profile-img {
   border-radius: 50%;
   box-shadow: 0 10px 25px #ff7529;
 }
-
 .header__profile-text {
   display: flex;
   flex-direction: column;
@@ -133,7 +133,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 15px 15px 80px 15px;
   width: 100%;
   max-height: inherit;
   overflow-y: scroll;
@@ -172,4 +172,37 @@ body {
   width: 80%;
   height: 60px;
   padding: 14px 10px;
+}
+
+.background-play-box {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.background-play {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  width: 90%;
+  height: 60px;
+  border: 2px solid rgb(34, 34, 34);
+  border-radius: 45px;
+  background-color: white;
+  opacity: 0.95;
+}
+.background-play__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+  padding: 14px 0;
+}
+.background-play__btn-bar * {
+  padding: 0 5px;
+}
+.background-play__btn-bar *:hover {
+  cursor: pointer;
 }
