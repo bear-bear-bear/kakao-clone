@@ -9,7 +9,11 @@
   align-items: center;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component__column > .badge {
+  position: relative;
+  left: 15px;
 }
 .user-component__avatar {
   border-radius: 40%;
@@ -39,4 +43,8 @@
   margin: 5px 0 0 1.5px;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 6px;
 }
