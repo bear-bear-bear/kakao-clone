@@ -1,10 +1,11 @@
 .icon-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .icon-row__icon {
   display: flex;
   flex-direction: column;
+  width: 25%;
   align-items: center;
 }
 .icon-row__icon i {

@@ -1,0 +1,9 @@
+.more-screen .icon-row {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  border-bottom: var(--main-border);
+}
+
+.more-screen .icon-row__icon {
+  margin-bottom: 60px;
+}
