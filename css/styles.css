@@ -5,6 +5,7 @@
 @import "variables.css";
 
 /* Components */
+@import "components/icon-row.css";
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/badge.css";
