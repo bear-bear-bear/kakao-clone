@@ -9,3 +9,9 @@
   background-color: tomato;
   border-radius: 50%;
 }
+
+.badge--point {
+  display: block;
+  width: 5px;
+  height: 5px;
+}

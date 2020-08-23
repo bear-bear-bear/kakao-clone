@@ -35,8 +35,5 @@
 }
 
 .nav__notification--point {
-  display: block;
-  width: 5px;
-  height: 5px;
   left: 32px;
 }
