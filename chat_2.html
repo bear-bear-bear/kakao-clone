@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat w/ 핸드폰 보는 곰 - Kakao Clone</title>
   </head>
-  <body>
+  <body class="chat-screen">
     <article class="status-bar-wrapper">
       <div class="status-bar">
         <div class="status-bar__column">
@@ -26,18 +26,122 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="fas fa-angle-left fa-2x"></i>
+        <i class="fas fa-angle-left fa-3x"></i>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">핸드폰 보는 곰</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">
+        Monday, August 24, 2020
+      </div>
 
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">야</span>
+            <span class="message__time">08:21</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">야</span>
+            <span class="message__time">08:26</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">야</span>
+            <span class="message__time">09:30</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">야</span>
+            <span class="message__time">10:42</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">야</span>
+            <span class="message__time">12:07</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">야</span>
+            <span class="message__time">13:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/e7/6d/8f/e76d8fbfc8fad4b55cc20a0b33d21e2f.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">핸드폰 보는 곰</span>
+          <div class="message__info">
+            <span class="message__bubble">봤으면 답장좀 해라 ㅋㅋㅋㅋㅋㅋ</span>
+            <span class="message__time">13:21</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="reply__wrapper">
+      <form class="reply">
+        <div class="reply__column">
+          <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="far fa-smile-wink"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+    </div>
     <script
       src="https://kit.fontawesome.com/5e169df0e9.js"
       crossorigin="anonymous"
