@@ -1,7 +1,14 @@
+.nav-wrapper {
+  position: relative;
+  width: 100%;
+  height: 73px; /* current .nav height */
+  bottom: 0;
+}
 .nav {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: inherit;
   box-sizing: border-box;
   background-color: #f9f9fa;
   padding: 20px 50px;
