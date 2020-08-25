@@ -1,7 +1,11 @@
-# kokoa-clone
+# kakao-clone
 
-- nomad coder kokoa clone coding
-  https://nomadcoders.co 에서 수강한 카카오 클론 코딩.
+##### nomad coder kokoa clone coding - https://nomadcoders.co 에서 수강한 카카오 클론 코딩
 
-- 프로젝트 결과물 보기 → https://bear-bear-bear.github.io/kakao-clone/
-- 사용된 스택: html, css
+---
+
+- 프로젝트 결과물 보기 → <a href="https://bear-bear-bear.github.io/kakao-clone/">카카오 클론 바로가기</a>
+  <br/><br/>
+- 사용된 스택
+  - html
+  - css
