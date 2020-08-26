@@ -10,8 +10,31 @@
   border-radius: 50%;
 }
 
+@keyframes notifyCircle {
+  0% {
+    transform: scale(1.5);
+  }
+  5% {
+    transform: scale(3);
+  }
+  10% {
+    transform: scale(1.5);
+  }
+  15% {
+    transform: scale(3);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .badge--point {
   display: block;
   width: 5px;
   height: 5px;
+  animation: notifyCircle 7s ease-in-out infinite;
+  animation-delay: 7s;
 }

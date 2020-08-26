@@ -33,30 +33,6 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* 
---새로운 알림을 진동으로 알리는 애니메이션--
-
-@keyframes vibrate {
-  0% {
-    top: 0px;
-  }
-  33% {
-    top: 2.5px;
-  }
-  66% {
-    top: -2.5px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
-.badge--point_parent {
-  animation: vibrate 0.1s linear 15;
-  animation-delay: 3s;
-} 
-*/
-
 @keyframes hideSplashScreen {
   0% {
     opacity: 1;
@@ -81,4 +57,52 @@
   height: 100vh;
   font-size: 128px;
   animation: hideSplashScreen 3s ease-in-out forwards;
+}
+
+@keyframes vibrate {
+  0% {
+    top: 0px;
+  }
+  33% {
+    top: 2.5px;
+  }
+  66% {
+    top: -2.5px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.badge--point_parent {
+  animation: vibrate 0.1s linear 12;
+  animation-delay: 3s;
+}
+
+@keyframes notifyCircle {
+  0% {
+    transform: scale(1.5);
+  }
+  5% {
+    transform: scale(3);
+  }
+  10% {
+    transform: scale(1.5);
+  }
+  15% {
+    transform: scale(3);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.badge--point {
+  animation: notifyCircle 7s ease-in-out infinite;
+  animation-delay: 7s;
+  display: block;
+  border-radius: 50%;
 }
