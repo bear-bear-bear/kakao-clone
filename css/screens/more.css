@@ -5,7 +5,14 @@
 }
 
 .more-screen .icon-row__icon {
+  position: relative;
   margin-bottom: 60px;
+}
+
+.icon-row__icon .badge {
+  position: absolute;
+  top: -25px;
+  right: 35px;
 }
 
 .more-suggestions {
