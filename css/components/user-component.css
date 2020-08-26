@@ -1,6 +1,13 @@
 .user-component {
   justify-content: space-between;
   margin-bottom: 25px;
+  padding: 3px 2px;
+  border-radius: 30px;
+  transition: background-color 0.1s ease-in-out;
+}
+.user-component:hover,
+.user-component:focus {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .user-component,
