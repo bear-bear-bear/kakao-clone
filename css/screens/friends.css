@@ -33,6 +33,26 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+@keyframes vibrate {
+  0% {
+    top: 0px;
+  }
+  33% {
+    top: 2.5px;
+  }
+  66% {
+    top: -2.5px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.badge--point_parent {
+  animation: vibrate 0.1s linear 15;
+  animation-delay: 3s; /* splash image time == 3s */
+}
+
 @keyframes hideSplashScreen {
   0% {
     opacity: 1;
