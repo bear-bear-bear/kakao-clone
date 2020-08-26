@@ -24,6 +24,10 @@
   color: var(--default-text-color);
   position: relative;
 }
+.nav__link:nth-child(2):hover > .badge,
+.nav__link:nth-child(2):focus > .badge {
+  animation: flipCoin 0.8s linear infinite;
+} /* .nav__link:nth-child(2)는 채팅 아이콘 */
 
 .nav__notification {
   position: absolute;
@@ -36,4 +40,13 @@
 
 .nav__notification--point {
   left: 32px;
+}
+
+@keyframes flipCoin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
