@@ -21,3 +21,17 @@
   left: -1px;
   top: -2px;
 }
+
+@keyframes iconSpin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(720deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover,
+.screen-header__icons .fa-cog:focus {
+  animation: iconSpin 1s ease-in-out infinite;
+}
