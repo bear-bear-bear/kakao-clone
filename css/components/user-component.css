@@ -7,7 +7,7 @@
 }
 .user-component:hover,
 .user-component:focus {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--main-hover-color);
 }
 
 .user-component,

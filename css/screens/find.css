@@ -33,6 +33,11 @@
   margin-top: 25px;
   padding-bottom: 15px;
   border-bottom: var(--main-border);
+  transition: background-color 0.1s ease-in-out;
+}
+.open-post:hover,
+.open-post:focus {
+  background-color: var(--main-hover-color);
 }
 .open-post:last-child {
   border: none;
