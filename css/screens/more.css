@@ -1,14 +1,14 @@
-.icon-row {
+.more-screen .icon-row {
   margin-top: 50px;
   flex-wrap: wrap;
   border-bottom: var(--main-border);
 }
 
-.icon-row__icon {
+.more-screen .icon-row__icon {
   margin-bottom: 60px;
 }
 
-.icon-row__icon:nth-child(4) .badge {
+.more-screen .icon-row__icon:nth-child(4) .badge {
   position: absolute;
   top: -50px;
   left: 50px;
