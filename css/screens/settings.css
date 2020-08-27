@@ -26,7 +26,6 @@
 }
 
 .settings__icon-wrapper ~ .badge {
-  position: absolute;
-  display: block;
-  left: 110px;
+  top: -3px;
+  left: 115px;
 }

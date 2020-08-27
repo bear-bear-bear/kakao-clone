@@ -1,13 +1,10 @@
 .badge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 26px;
-  height: 26px;
-  font-weight: 600;
-  color: white;
-  background-color: tomato;
+  display: block;
+  position: absolute;
   border-radius: 50%;
+  background-color: tomato;
+  /* left: 50%;
+  transform: translate(-50%, 0); */
 }
 
 @keyframes notifyCircle {
@@ -31,9 +28,39 @@
   }
 }
 
+.badge--number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  font-weight: 600;
+  color: white;
+}
+
 .badge--point {
   width: 5px;
   height: 5px;
   animation: notifyCircle 7s ease-in-out infinite;
   animation-delay: 7s;
+}
+
+@keyframes vibrate {
+  0% {
+    top: 0px;
+  }
+  33% {
+    top: 2.5px;
+  }
+  66% {
+    top: -2.5px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.badge--point_parent {
+  animation: vibrate 0.1s linear 12;
+  animation-delay: 3s;
 }
