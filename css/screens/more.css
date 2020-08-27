@@ -5,15 +5,17 @@
 }
 
 .icon-row__icon {
-  position: relative;
   margin-bottom: 60px;
 }
 
-.icon-row__icon .badge {
-  top: -25px;
-  right: 55px;
+.icon-row__icon:nth-child(4) .badge {
+  position: absolute;
+  top: -50px;
+  left: 50px;
 }
-
+.more-screen .icon-row__icon > span {
+  position: relative;
+}
 .more-suggestions {
   margin-top: 35px;
 }
