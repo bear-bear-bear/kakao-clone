@@ -39,15 +39,12 @@
   position: relative;
 }
 
-.nav__notification {
-  position: absolute;
-}
-
 .nav__notification--number {
   left: 18px;
   top: -20px;
 }
 
 .nav__notification--point {
-  left: 32px;
+  top: -13px;
+  left: 35px;
 }
