@@ -1,6 +1,9 @@
 .chat-screen {
   background-color: #abc1d1;
 }
+.chat-screen::-webkit-scrollbar {
+  display: none;
+}
 .chat-screen .status-bar {
   z-index: 9999;
 }
