@@ -148,10 +148,8 @@
   box-sizing: border-box;
   transition: display 1s;
 }
-.reply:focus-within .reply__column:first-child,
-.reply:focus-within i,
-.reply:focus-within button {
-  opacity: 0;
+.reply:focus-within .reply__column:first-child {
+  display: none;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -160,7 +158,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  flex: 1;
 }
 .reply i {
   opacity: 0.5;
@@ -172,13 +170,6 @@
   border: none;
   border: var(--main-border);
   border-radius: 20px;
-  transition: all 0.3s ease-in-out;
-}
-.reply:focus-within input {
-  position: absolute;
-  top: -21px;
-  width: 95vw;
-  transform: translateX(-10%);
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
