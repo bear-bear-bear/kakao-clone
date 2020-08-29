@@ -152,7 +152,10 @@
   display: none;
 }
 .reply .reply__column:first-child {
+  display: flex;
+  justify-content: center;
   width: 10%;
+  max-width: 72px;
 }
 .reply .reply__column:last-child {
   position: relative;
