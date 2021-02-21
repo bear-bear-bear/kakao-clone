@@ -1,13 +1,15 @@
 # kakao-clone
 
-##### Ä«Ä«¿ÀÅå Å¬·Ğ À¥ »çÀÌÆ®
-
-##### nomad coder kokoa clone coding - https://nomadcoders.co ¿¡¼­ ¼ö°­ÇÑ °­ÀÇ °ü·Ã ÇÁ·ÎÁ§Æ®
+##### ì¹´ì¹´ì˜¤í†¡ UI í´ë¡ ì½”ë”©
 
 ---
+<div style="display: flex;">
+  <img src="https://github.com/bear-bear-bear/kakao-clone/blob/master/img/preview1.PNG" width="50%" />
+  <img src="https://github.com/bear-bear-bear/kakao-clone/blob/master/img/preview2.PNG" width="50%" />
+</div>
 
-- Go to website ¡æ <a href="https://bear-bear-bear.github.io/kakao-clone/">Ä«Ä«¿À Å¬·Ğ ¹Ù·Î°¡±â</a>
+- Go to website â†’ <a href="https://bear-bear-bear.github.io/kakao-clone/">ì¹´ì¹´ì˜¤í†¡ í´ë¡  ë°”ë¡œê°€ê¸°</a>
   <br/><br/>
-- »ç¿ëµÈ ½ºÅÃ
+- ì‚¬ìš©ëœ ìŠ¤íƒ
   - html
   - css
